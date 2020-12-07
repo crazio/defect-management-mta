@@ -1,0 +1,11 @@
+_schema-version: '3.1'
+ID: defect-management
+version: 1.0.0-SNAPSHOT
+description: "Defect Management Multi-Target Application"
+parameters:
+  enable-parallel-deployments: true
+
+resources:
+# ABAP Trial Service
+ - name: defect-management-core
+   type: org.cloudfoundry.existing-service
